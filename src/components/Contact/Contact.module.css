@@ -9,14 +9,14 @@
 }
 .contact_card_info_item {
 	display: flex;
-	gap: 10px;
+	gap: 8px;
 	align-items: center;
 	font-size: 18px;
 }
 .contact_card_info_item > svg {
 	flex-shrink: 0;
-	width: 20px;
-	height: 20px;
+	width: 18px;
+	height: 18px;
 }
 .contact_card_info_item:first-child {
 	margin-bottom: 10px;
@@ -27,6 +27,6 @@
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
-		max-width: 220px;
+		max-width: 225px;
 	}
 }
